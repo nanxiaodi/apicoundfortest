@@ -1,0 +1,22 @@
+#daibanView .list-block {
+    margin: 0px;
+}
+
+#daibanView .list-block a{
+    color: #000;
+}
+
+#daibanView .list-block  .item-inner {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#daibanView .list-block  .item-inner .item-text {
+    height: auto;
+    padding-left: 16px;
+    -webkit-line-clamp: 100;
+}
+
+#daibanView .list-block  .item-inner .item-text .item-text-tel {
+    color:#007aff;
+}

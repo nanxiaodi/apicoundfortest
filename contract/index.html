@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>合同管理</title>
+    <!-- Path to Framework7 Library CSS, iOS Theme -->
+    <link rel="stylesheet" href="../css/framework7.ios.min.css">
+    <!-- Path to Framework7 color related styles, iOS Theme -->
+    <link rel="stylesheet" href="../css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/contract.css">
+    <script src="../js/zepto.min.js"></script>
+</head>
+<body>
+<!-- Views -->
+<div class="views tabs toolbar-through">
+    <!-- Pages 待办-->
+    <div id="daibanView" class="view tab active">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#"  class="refresh-click link">
+                        <i class="icon icon-back"></i>
+                        <span>返回</span>
+                    </a>
+                </div>
+                <div class="center sliding i18n" data-i18n="app.name">待办</div>
+                <div class="right">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="pages navbar-through">
+            <div data-page="daibanView" class="page no-swipeback">
+                <!--下拉刷新 -->
+                <div data-id='#daibanView' data-distance="50" class="page-content pull-to-refresh-content infinite-scroll">
+                    <div class="pull-to-refresh-layer">
+                        <div class="preloader"></div>
+                        <div class="pull-to-refresh-arrow"></div>
+                        <span class="center refresh-time" style="display:none">上次更新:<span class="time"></span></span>
+                    </div>
+                    <div class="load-result"></div>
+                    <!--列表内容-->
+                    <div class="list-block media-list">
+                        <ul class="pageCon">
+                        </ul>
+                    </div>
+                    <!-- 加载提示符 -->
+                    <div class="infinite-scroll-preloader" hidden>
+                        <div class="preloader" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page 已办 -->
+    <div id="yibanView" class="view tab">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#"  class="refresh-click link">
+                        <i class="icon icon-back"></i>
+                        <span>返回</span>
+                    </a>
+                </div>
+                <div class="center sliding i18n" data-i18n="app.name">已办</div>
+                <div class="right">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </div>
+            </div>
+        </div>
+
+        <div class="pages navbar-through">
+            <div data-page="yibanView" class="page no-swipeback">
+                <!--下拉刷新 -->
+                <div data-id='#yibanView' data-distance="50" class="page-content pull-to-refresh-content infinite-scroll">
+                    <div class="pull-to-refresh-layer">
+                        <div class="preloader"></div>
+                        <div class="pull-to-refresh-arrow"></div>
+                        <span class="center refresh-time" style="display:none">上次更新:<span class="time"></span></span>
+                    </div>
+                    <div class="load-result"></div>
+                    <!--列表内容-->
+                    <div class="list-block media-list list-padding">
+                        <span class="center empty-tips" hidden>暂无内容</span>
+                        <ul class="pageCon" hidden>
+
+                        </ul>
+                    </div>
+                    <!-- 加载提示符 -->
+                    <div class="infinite-scroll-preloader" hidden>
+                        <div class="preloader" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- toolbar start -->
+    <div class="toolbar tabbar tabbar-labels">
+        <div class="toolbar-inner">
+            <a href="#daibanView" data-autoRefresh='off' class="tab-link active">
+                <i class="icon demo-icon-1"></i>
+                <span class="tabbar-label i18n">待办</span>
+            </a>
+            <a href="#yibanView" data-autoRefresh='on' class="tab-link">
+                <i class="icon demo-icon-2"></i>
+                <span class="tabbar-label i18n">已办</span>
+            </a>
+        </div>
+    </div>
+    <!-- toolbar end -->
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="../js/framework7.min.js"></script>
+<script type="text/javascript" src="../js/gloabal.js"></script>
+<script src="js/contract.js"></script>
+</body>
+</html>
