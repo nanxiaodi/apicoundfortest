@@ -54,7 +54,6 @@ function contractAjax(id,UserName,PageIndex,fn,that) {
     });
 }
 
-
 // 拼接字符串
 function joinString(datas) {
     var datetime;

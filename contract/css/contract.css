@@ -40,9 +40,13 @@ i.demo-icon-2 {
     word-spacing: 30px;
 }
 
-.item-link {
+.pageCon .item-content .item-link {
     width:100%;
+    margin-left: 15px;
+    padding-left: 0px;
 }
+
+
 
 .item-inner .item-time {
     float:right;
