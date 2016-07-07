@@ -1,0 +1,22 @@
+/*重置待办样式*/
+.yishou .item-row {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.yishou .item-title-row {
+    font-size: 14px;
+    color: #8e8e93
+}
+
+.yishou .item-link {
+    padding-right: 15px;
+}
+
+.yishou .item-inner {
+    padding-right: 0px;
+    line-height: 1.7;
+
+}
+
+

@@ -1,0 +1,107 @@
+/*主题色*/
+.color {
+    background: #ca3032;
+}
+
+.Icon {
+    display: block;
+}
+
+.Icon-logo {
+    background: url("../img/logo.png") no-repeat;
+    padding-left: 22px;
+    padding-top: 20px;
+    background-size: 22px 22px;
+}
+
+.Icon-news {
+    width: 16px;
+    height: 16px;
+    background: url("../img/newsLogo.png") no-repeat;
+    background-size: 16px 16px;
+}
+
+/*重置f7的样式*/
+.toolbar {
+   top: 0px;
+}
+
+.view .navbar {
+    top: 50px;
+}
+
+.toolbar .toolbar-inner {
+    padding: 0 15px;
+}
+
+.toolbar .tab-link {
+
+}
+
+.toolbar .tab-link {
+    line-height: 44px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.toolbar .tab-link.active {
+    font-size: 16px;
+    color: #fff;
+}
+
+.toolbar .tab-link.active span {
+    border-bottom: 1px solid #fff;
+    /* display: block; */
+    height: 35px;
+}
+
+.navbar .navbar-inner .left {
+    color: #4ac2f6;
+    font-size: 14px;
+}
+
+/*下拉刷新图标位置*/
+
+.pull-to-refresh-layer {
+    top: 40px;
+}
+
+/*无限加载图片居中*/
+.infinite-scroll-preloader {
+    text-align: center;
+}
+
+/*调整内容区域距离导航的高度*/
+
+.navbar-fixed .page-content, .navbar-through .page-content {
+    padding-top: 58px;
+}
+
+/*调整要闻列表样式*/
+#view-1 .item-row {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#view-1 .item-title-row {
+    font-size: 14px;
+    color: #8e8e93
+}
+
+#view-1 .item-link {
+    padding-right: 15px;
+}
+
+#view-1 .item-inner {
+    padding-right: 0px;
+   line-height: 1.7;
+
+}
+
+/*调整能源要闻列表样式*/
+#view-2 .item-title-row,#view-3 .item-title-row,#view-4 .item-title-row{
+    font-size: 14px;
+    background-image: none;
+    padding-right: 0px;
+}
+

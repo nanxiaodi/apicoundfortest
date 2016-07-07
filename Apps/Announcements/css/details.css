@@ -1,0 +1,25 @@
+.details .page-content {
+    background: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.details .row{
+    margin-top: 10px;
+}
+
+.details .details-table {
+    width: 100%;
+    border-collapse:collapse;
+    font-size: 14px;
+}
+
+.details .details-table tr {
+    word-wrap:break-word;
+    white-space: normal;
+}
+
+.details .details-table tr td {
+    border: 1px solid #e0e0e0;
+    padding: 10px 10px 5px 10px;
+}

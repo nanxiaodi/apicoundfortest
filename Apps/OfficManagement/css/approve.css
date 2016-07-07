@@ -1,0 +1,63 @@
+.approvePage .navbar .navbar-inner {
+    color: #fff;
+}
+
+.approvePage .item-inner {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.approvePage .item-title  {
+    font-size:14px;
+}
+
+.approvePage .item-title > a {
+   color: #000;
+    font-weight: bold;
+}
+
+.approvePage.item-title > span {
+    font-weight: bold;
+}
+
+/*表格样式*/
+
+.approvePage .approve-table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.approvePage .approve-table tr th {
+    border: 1px solid #acacac;
+}
+
+.approvePage .approve-table thead tr th {
+    text-align: center;
+    padding: 13px 10px;
+}
+
+.approvePage .approve-table thead {
+    background: #eee;
+}
+
+.approvePage .approve-table tr {
+    word-wrap:break-word;
+    white-space: normal;
+}
+
+.approvePage .approve-table tr td {
+
+    border: 1px solid #acacac;
+    padding: 13px 10px;
+}
+
+.approvePage .approve-table tr td .opinion {
+  border: 1px solid #f1f1f1;
+    font-size:14px;
+    padding: 10px;
+}
+
+.approvePage .common-opinon > a > i {
+    transform: rotate(-90deg);
+    margin-left: 8px;
+}

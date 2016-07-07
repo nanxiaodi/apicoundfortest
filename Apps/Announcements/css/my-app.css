@@ -1,0 +1,42 @@
+/*主题色*/
+.color {
+    background: #ca3032;
+}
+.list-block {
+    margin: 0px 0px ;
+}
+
+
+.Icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-style: normal;
+    position: relative;
+}
+
+.Icon-back {
+    background: url('../../img/arrow.png') no-repeat;
+    background-size: 10px 16px;
+    width: 10px;
+    height: 19px;
+}
+
+/*重置f7导航样式*/
+.navbar .navbar-inner,.navbar .navbar-inner a{
+    color: #fff;
+}
+
+.button.lightblue {
+  background: #5ac8fa;
+}
+
+/*无限加载图片居中*/
+.infinite-scroll-preloader {
+    text-align: center;
+}
+
+
+
